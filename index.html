@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head> 
+<body>
+    <header>
+        <nav>
+            <h1 class="nav__logo">LOGO</h1>
+            <div>
+                <ul class="nav__lista">
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="./views/Productos.html">Productos</a></li>
+                    <li><a href="./views/Nosotros.html">Nosotros</a></li>
+                    <li><a href="./views/Contacto.html">Contacto</a></li>
+                    <li><a href="./views/Ayuda.html">Ayuda</a></li>
+                </ul>
+            </div>
+            <h2 class="nav__buscador">Buscador</h2>
+        </nav>
+    </header>
+
+    <main>
+        <div>
+            <img src="./assests/libros.png" alt="logo de libros" class="main__img">
+        </div>
+        <p class="main__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. A eius soluta optio temporibus itaque neque quasi! Consequuntur laborum harum deserunt natus? Id atque deserunt dicta quo officiis, sequi, cupiditate possimus molestiae minima totam nostrum accusantium amet dolore voluptatibus illo rerum repellendus temporibus culpa tempora cum dolorem repudiandae! Ullam, veniam placeat!</p>
+        <h4>barra vertical</h4>
+    </main>
+
+    <footer>
+        <div class="formulario">
+        <form action="" method="get" enctype="text/plain">
+                <legend>Manda tus consultas</legend>
+                <div>
+                    <label for="username">Nombre</label>
+                    <input type="text" name="username" id="username">
+                </div>
+                <div>
+                    <label for="usermail">eMail</label>
+                    <input type="email" name="usermail" id="usermail">
+                </div>
+                <div>
+                    <label for="userselect">Pais</label>
+                    <select name="pais" id="userselect">
+                        <option value="" disable selected>Seleccione su pais</option>
+                        <option value="arg">Argentina</option>
+                        <option value="chi">Chile</option>
+                        <option value="ven">Venezuela</option>
+                        <option value="uru">Uruguay</option>
+                        <option value="par">Paraguay</option>
+                    </select>
+                </div>
+                <div>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpiar Formulario">
+                </div>
+                <div>
+                    <input type="radio" name="useradio" id="useradio">Acepto los TyC
+                </div>
+        </form>
+        </div>
+            <h1>Video de fondo</h1>
+        <p class="pie">Numero telefonico - Direccion del local - eMail - Creador de la pagina - Reportar un problema</p>
+    </footer>
+</body>
+</html>
