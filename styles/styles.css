@@ -1,0 +1,116 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+nav{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkgray;
+    padding: 2rem;
+    height: 25vh;
+}
+
+.nav__lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;    
+}
+
+.nav__logo{
+    display: flex;
+    justify-content: start;
+    color: white;
+}
+
+.nav__buscador{
+    display: flex;
+    justify-content: end;
+    color: white;
+}
+
+main{
+    padding: 2rem;
+    height: 75vh;
+    background-color: whitesmoke;
+}
+
+.main__text{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+footer{
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    background-color: whitesmoke;
+    padding: 2rem;
+    height: 30rem;
+    width: 100%;
+}
+
+.formulario{
+    width: 15%;
+    height: 30%;
+    background-color: darkgrey;
+    border: 1px solid grey;
+    
+}
+
+.pie{
+    margin-top: 10rem;
+}
+
+/* Productos */
+
+.productos__imagenes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    height: 50vh;
+}
+
+.imagen__abajo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+/* Nosotros */
+
+.pregunta{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.respuesta{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    margin-top: 8rem;
+}
+
+/* contacto */
+
+.contacto{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* ayuda */
+
+.ayuda{
+    display: flex;
+    justify-content: space-evenly
+}
+
